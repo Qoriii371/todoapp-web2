@@ -1,0 +1,66 @@
+/* Atur warna latar belakang dan border kotak pinggir */
+.container {
+  max-width: 800px;
+}
+
+/* Atur jarak antar elemen */
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+/* Atur warna tombol "Add Item" */
+.btn-primary {
+  background-color: #ADD8E6;
+  /* light blue */
+  border-color: #ADD8E6;
+  /* light blue */
+}
+
+/* Gaya untuk tabel */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+/* Warna latar belakang untuk header tabel */
+.table thead th {
+  background-color: #ADD8E6;
+  /* light blue */
+  color: #fff;
+  border-color: #ADD8E6;
+  /* light blue */
+}
+
+/* Gaya untuk baris dalam tabel */
+.table tbody+tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+/* Warna latar belakang untuk baris */
+.table tbody tr {
+  background-color: #f8f9fa;
+}
+
+/* Gaya untuk tombol edit dan hapus */
+.btn-info,
+.btn-danger {
+  margin-right: 0.5rem;
+}
+
+/* Atur warna latar belakang dan border kotak pinggir */
+.card {
+  background-color: #ADD8E6;
+  /* light blue */
+  border: 1px solid #F08080;
+  /* light coral */
+}
+
+/* Atur warna latar belakang untuk header kotak pinggir */
+.card-header {
+  background-color: #ADD8E6;
+  /* light blue */
+  border-bottom: 1px solid #F08080;
+  /* light coral */
+}
